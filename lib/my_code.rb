@@ -14,6 +14,7 @@ end
 # to multiply by 2 
 # (map([1, 2, 3, -9]){|n| n * 2})   <--- yield 
 
+
 def reduce (array, starting = nil)
   
   if starting 
